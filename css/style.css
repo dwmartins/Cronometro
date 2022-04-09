@@ -1,0 +1,79 @@
+:root {
+	--color1: #04BFBF;
+	--color2: #D2D9D6;
+	--color3: #F2955E;
+	--color4: #F26D3D;
+	--color5: #F25A38;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: var(--color5);
+	box-shadow: inset 0px 0px 500px 150px #00000028;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.container h1{
+	font-size: 60px;
+	color: var(--color2);
+	margin: 20px;
+}
+
+.container p {
+	font-size: 70px;
+	font-weight: 900;
+	margin: 80px;
+}
+
+.buttons {
+	display: flex;
+	gap: 30px;
+}
+
+.buttons i {
+	font-size: 40px;
+	cursor: pointer;
+}
+
+.paused {
+	color: #ff0000;
+}
+
+.play {
+	color: #04BFBF;
+}
+
+
+footer {
+	text-align: center;
+}
+
+footer p {
+	color: var(--color2);
+	font-weight: 900;
+	padding: 10px;
+}
+
+footer a {
+	text-decoration: none;
+	color: var(--color2);
+	cursor: pointer;
+}
